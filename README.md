@@ -44,7 +44,7 @@ A comprehensive platform for evaluating and scoring product transparency across 
 3. Create a `.env` file in the backend directory with the following variables:
    ```
    PORT=3001
-   DATABASE_URL=postgres://user:password@localhost:5432/transparency_db
+   DATABASE_URL=postgresql://username:password@host:port/database_name
    JWT_SECRET=your_jwt_secret
    UPLOAD_DIR=./uploads
    ```
