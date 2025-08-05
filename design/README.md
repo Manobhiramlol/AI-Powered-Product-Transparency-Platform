@@ -1,0 +1,269 @@
+# Design System - Product Transparency Platform
+
+## 🎨 Design Philosophy
+
+Our design system prioritizes **transparency, trust, and clarity** to support ethical, health-first decision-making. The interface should inspire confidence while maintaining accessibility and usability.
+
+## 🎯 Design Principles
+
+### 1. **Transparency First**
+- Clear information hierarchy
+- Honest visual representation
+- No hidden elements or deceptive patterns
+
+### 2. **Trust Building**
+- Professional, clean aesthetic
+- Consistent visual language
+- Clear feedback and validation
+
+### 3. **Accessibility**
+- WCAG 2.1 AA compliance
+- High contrast ratios
+- Keyboard navigation support
+- Screen reader friendly
+
+### 4. **Mobile-First**
+- Responsive design patterns
+- Touch-friendly interactions
+- Optimized for all screen sizes
+
+## 🎨 Color Palette
+
+### Primary Colors
+```css
+--primary-blue: #2563eb;     /* Trust, professionalism */
+--primary-green: #059669;    /* Health, sustainability */
+--primary-orange: #ea580c;   /* Energy, transparency */
+```
+
+### Secondary Colors
+```css
+--secondary-gray: #6b7280;   /* Neutral text */
+--secondary-light: #f3f4f6;  /* Backgrounds */
+--secondary-dark: #1f2937;   /* Headers */
+```
+
+### Status Colors
+```css
+--success: #10b981;          /* Good transparency */
+--warning: #f59e0b;          /* Fair transparency */
+--error: #ef4444;            /* Poor transparency */
+--info: #3b82f6;             /* Information */
+```
+
+## 📱 Typography
+
+### Font Stack
+```css
+--font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+--font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+```
+
+### Type Scale
+```css
+--text-xs: 0.75rem;    /* 12px */
+--text-sm: 0.875rem;   /* 14px */
+--text-base: 1rem;     /* 16px */
+--text-lg: 1.125rem;   /* 18px */
+--text-xl: 1.25rem;    /* 20px */
+--text-2xl: 1.5rem;    /* 24px */
+--text-3xl: 1.875rem;  /* 30px */
+--text-4xl: 2.25rem;   /* 36px */
+```
+
+## 🧩 Component Library
+
+### Buttons
+- **Primary**: Blue background, white text
+- **Secondary**: White background, blue border
+- **Success**: Green background, white text
+- **Warning**: Orange background, white text
+- **Danger**: Red background, white text
+
+### Forms
+- **Input Fields**: Clean borders, clear focus states
+- **Validation**: Real-time feedback with color coding
+- **Progress Indicators**: Step-by-step form completion
+- **Tooltips**: Helpful context for complex fields
+
+### Cards
+- **Product Cards**: Product information with transparency score
+- **Report Cards**: PDF preview with download options
+- **Dashboard Cards**: Statistics and metrics display
+
+### Navigation
+- **Header**: Company logo, user menu, notifications
+- **Sidebar**: Main navigation with icons and labels
+- **Breadcrumbs**: Clear page hierarchy
+- **Pagination**: Accessible page navigation
+
+## 📐 Layout System
+
+### Grid System
+```css
+--container-max: 1200px;
+--grid-columns: 12;
+--grid-gap: 1rem;
+```
+
+### Spacing Scale
+```css
+--space-1: 0.25rem;   /* 4px */
+--space-2: 0.5rem;    /* 8px */
+--space-3: 0.75rem;   /* 12px */
+--space-4: 1rem;      /* 16px */
+--space-6: 1.5rem;    /* 24px */
+--space-8: 2rem;      /* 32px */
+--space-12: 3rem;     /* 48px */
+--space-16: 4rem;     /* 64px */
+```
+
+## 🎭 Iconography
+
+### Icon Set
+- **Lucide React**: Consistent, accessible icons
+- **Custom Icons**: Transparency-specific symbols
+- **Status Icons**: Visual indicators for scores
+
+### Icon Usage
+- **16px**: Small indicators
+- **20px**: Standard buttons
+- **24px**: Navigation items
+- **32px**: Feature highlights
+
+## 📱 Responsive Breakpoints
+
+```css
+--sm: 640px;   /* Mobile landscape */
+--md: 768px;   /* Tablet portrait */
+--lg: 1024px;  /* Tablet landscape */
+--xl: 1280px;  /* Desktop */
+--2xl: 1536px; /* Large desktop */
+```
+
+## 🎨 Page Templates
+
+### 1. Landing Page
+- Hero section with value proposition
+- Feature highlights
+- Trust indicators
+- Call-to-action buttons
+
+### 2. Product Form
+- Multi-step wizard
+- Progress indicator
+- Dynamic question generation
+- Real-time validation
+
+### 3. Dashboard
+- Overview statistics
+- Recent submissions
+- Quick actions
+- Notifications
+
+### 4. Report Viewer
+- PDF preview
+- Download options
+- Share functionality
+- Print-friendly layout
+
+## 🔧 Design Tokens
+
+### Shadows
+```css
+--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+```
+
+### Border Radius
+```css
+--radius-sm: 0.125rem;  /* 2px */
+--radius-md: 0.375rem;  /* 6px */
+--radius-lg: 0.5rem;    /* 8px */
+--radius-xl: 0.75rem;   /* 12px */
+```
+
+### Transitions
+```css
+--transition-fast: 150ms ease-in-out;
+--transition-normal: 250ms ease-in-out;
+--transition-slow: 350ms ease-in-out;
+```
+
+## 🎯 Accessibility Guidelines
+
+### Color Contrast
+- **Normal Text**: 4.5:1 minimum ratio
+- **Large Text**: 3:1 minimum ratio
+- **UI Components**: 3:1 minimum ratio
+
+### Focus States
+- Visible focus indicators
+- Keyboard navigation support
+- Logical tab order
+
+### Screen Readers
+- Semantic HTML structure
+- ARIA labels and descriptions
+- Alt text for images
+- Skip navigation links
+
+## 📋 Design Deliverables
+
+### Required Assets
+1. **Figma Design Files**
+   - Landing page design
+   - Multi-step form flows
+   - Dashboard layouts
+   - Report viewer interface
+
+2. **Component Library**
+   - Reusable UI components
+   - Interactive prototypes
+   - Responsive variations
+
+3. **Style Guide**
+   - Color usage guidelines
+   - Typography rules
+   - Spacing standards
+   - Icon usage
+
+4. **User Experience**
+   - User flow diagrams
+   - Wireframes
+   - Interaction patterns
+   - Error states
+
+## 🚀 Implementation Notes
+
+### Frontend Integration
+- Use Tailwind CSS for styling
+- Implement responsive design patterns
+- Ensure accessibility compliance
+- Optimize for performance
+
+### Design Handoff
+- Provide design tokens
+- Include interaction specifications
+- Document responsive breakpoints
+- Share accessibility guidelines
+
+## 📈 Success Metrics
+
+### User Experience
+- Form completion rates
+- Time to generate reports
+- User satisfaction scores
+- Accessibility compliance
+
+### Visual Design
+- Brand consistency
+- Visual hierarchy clarity
+- Mobile responsiveness
+- Cross-browser compatibility
+
+---
+
+*This design system supports the mission of promoting transparency and trust in consumer products through clear, accessible, and professional design.* 
